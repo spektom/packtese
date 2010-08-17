@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SQLite JDBC Binaries
+Bundle-SymbolicName: org.sqlitejdbc.gtk.linux.x86_64;singleton:=true
+Bundle-Version: 0.0.0.qualifier
+Bundle-Vendor: http://github.com/spektom/packtese
+Bundle-localization: plugin
+Fragment-Host: org.sqlitejdbc;bundle-version="0.0.0"
+Eclipse-BundleShape: dir
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))

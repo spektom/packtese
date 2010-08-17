@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SQLite JDBC
+Bundle-SymbolicName: org.sqlitejdbc
+Bundle-Version: 0.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: http://github.com/spektom/packtese
+Export-Package: org.sqlite
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
