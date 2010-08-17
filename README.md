@@ -21,7 +21,7 @@ The following steps describe how to package 'foo' library as an OSGi bundle:
 4. Launch build:
 
     * Choose "Run -> Run Configurations...".
-    * Select "SQLite JDBC Packaging", and press "Run".
+    * Select "foo Packaging", and press "Run".
 
 5. The archived update site including bundled 'foo' will be placed into this folder:
 
