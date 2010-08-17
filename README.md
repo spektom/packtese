@@ -14,14 +14,15 @@ The following steps describe how to package 'foo' library as an OSGi bundle:
 
 3. Import org.eclipse.pde.build into your workspace:
 
-    Click "File->Import..."
-    Choose "Plug-ins and Fragments", and press "Next".
-    Add "org.eclipse.pde.build" to plug-ins to import and press Finish.
+    * Click "File->Import..."
+    * Choose "Plug-ins and Fragments", and press "Next".
+    * Add "org.eclipse.pde.build" to plug-ins to import and press Finish.
 
 4. Launch build:
-    Choose "Run -> Run Configurations...".
-    Select "SQLite JDBC Packaging", and press "Run".
+
+    * Choose "Run -> Run Configurations...".
+    * Select "SQLite JDBC Packaging", and press "Run".
 
 5. The archived update site including bundled 'foo' will be placed into this folder:
 
-    foo.releng/build/result/
+    `foo.releng/build/result/`
