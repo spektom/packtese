@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mozilla Xulrunner for MacOSX
+Bundle-SymbolicName: org.mozilla.xulrunner.carbon.macosx;singleton:=true
+Bundle-Version: 0.0.0.0_qualifier
+Bundle-Vendor: http://github.com/spektom/packtese
+Bundle-localization: plugin
+Fragment-Host: org.mozilla.xulrunner;bundle-version="0.0.0.0"
+Eclipse-BundleShape: dir
+Eclipse-PlatformFilter: (& (osgi.os=macosx) (osgi.arch=x86))

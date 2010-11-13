@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.mozilla.xulrunner.feature_@org.mozilla.xulrunner.feature@.jar" id="org.mozilla.xulrunner.feature" version="@org.mozilla.xulrunner.feature@">
+      <category name="Mozilla Xulrunner - @targetVersion@"/>
+   </feature>
+   <feature url="features/org.mozilla.xpcom.feature_@org.mozilla.xpcom.feature@.jar" id="org.mozilla.xpcom.feature" version="@org.mozilla.xpcom.feature@">
+      <category name="Mozilla XPCOM for Java - @targetVersion@"/>
+   </feature>
+   <category-def name="Mozilla Xulrunner - @targetVersion@" label="Mozilla Xulrunner - @targetVersion@"/>
+   <category-def name="Mozilla XPCOM for Java - @targetVersion@" label="Mozilla XPCOM for Java - @targetVersion@"/>
+</site>
